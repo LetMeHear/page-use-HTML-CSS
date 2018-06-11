@@ -5,7 +5,7 @@ body {
 	display: flex;
 	width: 100%;
 	height: 72px;
-	min-width: 1440px;
+	min-width: 1421px;
 	background-color: #07111b;
 }
 .mooc-logo-container {
@@ -191,4 +191,120 @@ body {
 	height: 3px;
 	width: 16px;
 	background-color: #9447eb;
+}
+.midder-container {
+	height: 700px;
+	background-color: #f3f5f7;
+}
+.middle-toper-gradient-color {
+	height: 24px;
+	background: linear-gradient(0deg, #f3f5f7, #dfe1e3);
+}
+.middle-title-items-box {
+	display: flex;
+	position: relative;
+	top: -4px;
+	margin-left: 518px;
+}
+.middle-title-items-each {
+	font-size: 14px;
+	color: #93999f;
+	padding: 8px 16px;
+	border-radius: 18px;
+	margin-right: 28px;
+}
+.middle-title-items-each:hover {
+	color: #4d555d;
+}
+.middle-title-items-focus {
+	background-color: #383d42;
+	color: #fff;
+	font-size: 14px;
+	padding: 8px 16px;
+	margin-right: 28px;
+	border-radius: 18px;
+}
+.lessons-stages {
+	display: flex;
+	margin-left: 167px;
+	margin-top: 17px;
+}
+.which-stage {
+	font-size: 14px;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 12px;
+	line-height: 16px;
+	background-color: #9447eb;
+	border-radius: 4px;
+}
+.stage-title {
+	font-size: 16px;
+	color: #9447eb;
+	line-height: 24px;
+	font-weight: 700;
+	margin-right: 12px;
+}
+.how-many-lessons {
+	font-size: 12px;
+	color: #9199a1;
+	line-height: 24px;
+}
+.stage-detail {
+	display: flex;
+	width: fit-content;
+	margin: 16px 0 0 167px;
+}
+.left-pic-container {
+	width: 92px;
+	height: 252px;
+	background-image: url(./imgs/stage1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.right-content-container {
+	display: flex;
+	height: 252px;
+	width: 1016px;
+	background-color: #fff;
+	border-radius: 0 18px 18px 0;
+	padding: 20px 10px 16px 24px;
+	box-sizing: border-box;
+}
+.content-items-each-container {
+	margin-top: 8px;
+}
+.content-items-each {
+	background-color: #f1f1f2;
+	padding: 16px 26px 16px 16px;
+	position: relative;
+	width: 142px;
+	height: 132px;
+	border-radius: 12px;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;	
+}
+.content-items-each-title {
+	font-size: 14px;
+	font-weight: 400;
+	color: #1c1f21;
+	line-height: 20px;
+	margin: 1px 0 0 0;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.content-items-each ul {
+	padding: 0;
+	margin: 13px 0 0 0;
+}
+.content-items-each li {
+	font-size: 12px;
+	list-style: none;
+	color: #545c63;
+	line-height: 16px;
+	margin-top: 8px;
 }
