@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+}
+.header-container {
+	display: flex;
+	width: 100%;
+	height: 72px;
+	min-width: 1440px;
+	background-color: #07111b;
+}
+.mooc-logo-container {
+	width: 140px;
+	height: 72px;
+	margin-left: 22px;
+}
+.header-lessons-title {
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(255,255,255,.6);
+	line-height: 72px;
+	padding: 0 18px;
+}
+.header-lessons-title-container {
+	margin-left: 20px;
+}
+.header-lessons-title-container a:hover {
+	color: #fff;
+}
+.lesson-special {
+	color: #fff;
+	padding: 0 23px 0 17px;
+}
+.new-logo {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 367px;
+	top: 16px;
+}
+.search-container {
+	width: 210px;
+	display: inline-block;
+	height: 57px;
+	border-bottom: 1px solid #6a7076;
+	margin-left: 6px;
+}
+.search-input {
+	background-color: #07111B;
+    border: none;
+    width: 170px;
+}
+.search-tags {
+	position: relative;
+	top: 21px;
+	left: 31px;
+	z-index: 1;	
+}
+.search-tags a {
+	padding: 3px 8px;
+	font-size: 12px;
+	font-weight: 200;	
+	text-decoration: none;
+	color: rgba(255,255,255,.6);
+	background-color: rgba(255,255,255,.1);
+	margin-left: 3px;
+	border-radius: 12px;
+	line-height: 24px;
+}
+.search-tags a:hover {
+	color: #fff;
+	background-color: rgba(255,255,255,.2);
+}
+.mangifer-icon-container-position {
+	position: absolute;
+	z-index: 1;
+	top: 24px;
+	left: 795px;
+	padding: 4px 8px;
+	border-radius: 12px;
+}
+.mangifer-icon-container-position:hover {
+	background-color: #641218;
+}
+.mangifer-icon-container-position:hover .mangifer-icon-container {
+	background-image: url(./imgs/mangifer-hover.png);
+}
+.mangifer-icon-container {
+	width: 16px;
+	height: 16px;
+	background-image: url(./imgs/mangifer1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.mangifer-icon-container:hover {
+	cursor: pointer;
+}
+.righter-link-container {
+	margin-left: 279px;
+	display: flex;
+}
+.righter-link-word {
+	color: #929e9b;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 72px;
+}
+.shopping-mart-container {
+	border: 1px solid rgba(255,255,255,.2);
+	display: flex;
+	align-items: center;
+	padding: 0 18px;
+	border-radius: 18px;
+	height: 36px;
+	line-height: 34px;
+	margin: 17px 0 0 14px;
+}
+.shopping-mart-icon {
+	width: 16px;
+	height: 16px;
+	background-image: url(./imgs/shopmart2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.shopping-word {
+	margin-left: 9px;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(255,255,255,.6);
+}
+.loginorlogup-container {
+	display: flex;
+	align-items: center;
+	margin-left: 12px;
+}
+.log-word {
+	font-size: 14px;
+	line-height: 72px;
+	font-weight: 400;
+	color: rgba(255,255,255,.6);
+}
+.partition {
+	padding: 0 16px;
+}
+.hover-red:hover {
+	color: #f01414;
+}
+.hover-white:hover {
+	color: #fff;
+}
+.shopping-mart-container:hover .shopping-word{
+	color: #fff;
+}
+.shopping-mart-container:hover .shopping-mart-icon {
+	background-image: url(./imgs/shopmart-white.png);
+}
+.shopping-mart-container:hover {
+	background-color: #202932;
+}
+.hover-pointer:hover {
+	cursor: pointer;
+}
+.downhead-pic-container {
+	width: 100%;
+	height: 120px;
+	background-color: #0d5a44;
+	background-image: url(./imgs/midder-bg.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.lessons-item-container {
+	display: flex;
+	height: 72px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 37px;
+	color: #5e5e5e;
+	margin-left: 134px;
+}
+.lessons-item-each {
+	padding: 0 16px;
+	margin-right: 36px;
+	margin-top: 16px;
+}
+.special-purple {
+	color: #9447eb;
+}
+.small-purple-badge {
+	position: absolute;
+	top: 245px;
+	left: 285px;
+	height: 3px;
+	width: 16px;
+	background-color: #9447eb;
+}
