@@ -281,11 +281,6 @@ body {
 	width: 142px;
 	height: 132px;
 	border-radius: 12px;
-	display: -webkit-box;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 1;	
 }
 .content-items-each-title {
 	font-size: 14px;
@@ -299,7 +294,7 @@ body {
 }
 .content-items-each ul {
 	padding: 0;
-	margin: 13px 0 0 0;
+	margin: 21px 0 0 0;
 }
 .content-items-each li {
 	font-size: 12px;
@@ -307,4 +302,22 @@ body {
 	color: #545c63;
 	line-height: 16px;
 	margin-top: 8px;
+}
+.content-items-each-number {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	font-size: 36px;
+	font-family: DINCond-M;
+	line-height: 40px;
+	color: rgba(28, 31, 33, .1);
+}
+.for-show {
+	display: none;
+}
+.content-items-each:hover .for-show {
+	display: block;
+}
+.content-items-each:hover .for-hidden {
+	display: none;
 }
