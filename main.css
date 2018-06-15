@@ -193,7 +193,7 @@ body {
 	background-color: #9447eb;
 }
 .midder-container {
-	height: 700px;
+	min-height: 1600px;
 	background-color: #f3f5f7;
 }
 .middle-toper-gradient-color {
@@ -258,9 +258,20 @@ body {
 .left-pic-container {
 	width: 92px;
 	height: 252px;
-	background-image: url(./imgs/stage1.png);
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+.left-pic-container1 {
+	background-image: url(./imgs/stage1.png);
+}
+.left-pic-container2 {
+	background-image: url(./imgs/stage2.png);
+}
+.left-pic-container3 {
+	background-image: url(./imgs/stage3.png);
+}
+.left-pic-container4 {
+	background-image: url(./imgs/stage4.png);
 }
 .right-content-container {
 	height: 252px;
@@ -280,11 +291,14 @@ body {
 	background-color: #f1f1f2;
 	padding: 16px 26px 16px 16px;
 	position: relative;
-	width: 142px;
+	width: 142.4px;
 	height: 132px;
 	border-radius: 9px;
 	transition-duration: 1s;
 	margin-right: 12px;
+}
+.another-control-item-width {
+	width: 191.5px;
 }
 .content-items-each-title {
 	font-size: 14px;
@@ -306,6 +320,9 @@ body {
 	color: #545c63;
 	line-height: 16px;
 	margin-top: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .content-items-each-number {
 	position: absolute;
@@ -403,4 +420,19 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin: 3px 0 0 7px;
+}
+.lessons-stages-2 {
+	margin-top: 25px;
+}
+.bottom-lesson-stage {
+	display: block;
+}
+.bottom-lesson-stage p {
+	font-size: 12px;
+	color: #93999f;
+	line-height: 20px;
+	margin: 0;
+}
+.bottom-lesson-stage span {
+	color: #f01414;
 }
