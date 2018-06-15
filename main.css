@@ -193,7 +193,7 @@ body {
 	background-color: #9447eb;
 }
 .midder-container {
-	min-height: 1600px;
+	min-height: 1500px;
 	background-color: #f3f5f7;
 }
 .middle-toper-gradient-color {
@@ -435,4 +435,88 @@ body {
 }
 .bottom-lesson-stage span {
 	color: #f01414;
+}
+.all-kinds-of-occupation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	width: 1036px;
+}
+.occupation-item-each {
+	display: flex;
+	align-items: center;
+}
+.occupation-item-each-pic {
+	width: 16px;
+	height: 16px;
+	background-image: url(./imgs/character2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.occupation-item-each-word {
+	font-size: 14px;
+	font-weight: 700;
+	color: #5e5e5e;
+	margin-left: 10px;
+}
+.footer-container {
+	height: 98px;
+	background-color: #1c1f21;
+	overflow: hidden;
+	position: relative;
+}
+.footer-item-list {
+	margin: 24px 0 0 151px;
+}
+.footer-item-list span {
+	color: #c8cdd2;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 25px;
+}
+.footer-item-list span:hover {
+	color: #fff;
+}
+.footer-container-desc {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 17px;
+	color: #787d82;
+	margin: 8px 0 0 151px;
+}
+.three-communicate-way {
+	display: flex;
+	position: relative;
+	align-items: center;
+	left: 1150px;
+	top: -42px;	
+}
+.logo-pic-container {
+	width: 32px;
+	height: 32px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 10px;
+}
+.wechat {
+	background-image: url(./imgs/wechat.png);
+	width: 36px;
+	height: 36px;	
+}
+.wechat:hover {
+	background-image: url(./imgs/wechat1.png);
+	width: 36px;
+	height: 36px;	
+}
+.qq {
+	background-image: url(./imgs/qq.png);
+}
+.qq:hover {
+	background-image: url(./imgs/qq1.png);
+}
+.microblog {
+	background-image: url(./imgs/microblog.png);
+}
+.microblog:hover {
+	background-image: url(./imgs/microblog1.png);
 }
